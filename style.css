@@ -148,8 +148,8 @@ img {
 /* ===== Hero Section ===== */
 .hero {
     padding-top: 120px;
-    padding-bottom: 60px;
-    min-height: 100vh;
+    padding-bottom: 0;
+    min-height: auto;
     display: flex;
     align-items: center;
 }
@@ -297,7 +297,7 @@ img {
 
 /* ===== Coffee Section ===== */
 .coffee-section {
-    padding: 0 0 80px;
+    padding: 40px 0 80px;
     background: var(--color-cream);
 }
 
